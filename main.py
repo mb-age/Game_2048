@@ -4,8 +4,8 @@ import pygame
 import sys
 
 import colors
-from game_2048.logic import *
-from game_2048.database import get_best, insert_result
+from logic import *
+from database import get_best, insert_result
 
 
 GAMERS_DB = get_best()
@@ -113,8 +113,6 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption('2048')
 
 
-
-
 def draw_intro():
     img2048 = pygame.image.load('2048_logo.png')
     font = pygame.font.SysFont('stxingkai', 70)
@@ -140,7 +138,6 @@ def draw_intro():
                         USERNAME = name
                         is_find_name = True
                         break
-
         screen.fill(colors.BLACK)
         text_name = font.render(name, True, colors.SEASHELL)
         rect_name = text_name.get_rect()
