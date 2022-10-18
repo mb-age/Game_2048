@@ -1,5 +1,5 @@
 import unittest
-from .logic import get_number_from_index, get_empty_list, get_index_from_number, \
+from logic import get_number_from_index, get_empty_list, get_index_from_number, \
     is_zero_in_mas, move_left, move_right, move_up, move_down, can_move
 
 
