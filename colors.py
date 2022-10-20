@@ -1,3 +1,5 @@
+""" Colors in RGB format for pygame """
+
 DARK_PURPLE = (34, 3, 31)
 DARK_SEA_GREEN = (135, 179, 141)
 WILD_ORCHID = (204, 118, 161)
