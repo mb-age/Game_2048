@@ -11,6 +11,7 @@ from database import get_best, insert_result
 GAMERS_DB = get_best()
 
 def draw_top_gamers():
+    """ Displays a list of the top three players in the upper right corner of the playing field """
     font_top = pygame.font.SysFont('simsun', 30)
     font_gamer = pygame.font.SysFont('simsun', 20)
     text_head = font_top.render("Best tries: ", True, colors.RAISIN_BLACK)
