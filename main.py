@@ -51,6 +51,7 @@ def draw_interface(score, delta=0):
 
 
 def init_const():
+    """ Creates an initial layout of numbers with zeroes and two numbers (2 or 4) in random places """
     global mas, score
     score = 0
     mas = [[0] * 4 for i in range(4)]
