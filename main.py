@@ -24,6 +24,7 @@ def draw_top_gamers():
 
 
 def draw_interface(score, delta=0):
+    """ Draws the playing field and header with score and top gamers """
     pygame.draw.rect(screen, colors.SEASHELL, TITLE_RECT)
     font = pygame.font.SysFont('stxingkai', 70)
     font_score = pygame.font.SysFont('simsun', 48)
