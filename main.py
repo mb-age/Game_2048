@@ -153,6 +153,11 @@ def draw_intro():
 
 
 def draw_game_over():
+    """ Shows the game over screen with the final score of a player
+    and information about best score or information that players result broke the record.
+    With pressing Space player can start game again.
+    With pressing Enter player can be changed.
+    """
     global USERNAME, mas, score, GAMERS_DB, biggest_number
     img2048 = pygame.image.load('2048_logo.png')
     font = pygame.font.SysFont('stxingkai', 65)
