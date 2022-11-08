@@ -200,6 +200,9 @@ def draw_game_over():
 
 
 def save_game():
+    """ Saves data of the lastgame, so when turned on,
+    the game starts from the moment at which player left it
+    """
     data = {
         'user': USERNAME,
         'score': score,
