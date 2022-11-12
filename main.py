@@ -1,3 +1,5 @@
+""" Creating the playing field and game """
+
 import json
 import os
 import pygame
