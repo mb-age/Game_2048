@@ -117,6 +117,9 @@ pygame.display.set_caption('2048')
 
 
 def draw_intro():
+    """ Makes an entry screen with logo and welcome text 
+    where the player can write their username (minimum 3 symbols) 
+    """
     img2048 = pygame.image.load('2048_logo.png')
     font = pygame.font.SysFont('stxingkai', 70)
     text_welcome = font.render("Welcome", True, colors.SEASHELL)
@@ -213,6 +216,10 @@ def save_game():
 
 
 def game_loop():
+    """ Makes the playing field, which exists as long as there are possible moves,
+    makes the blockes move by pressing appropriate buttons,
+    puts digit to the random emply place after every move
+    """
     global score, mas, biggest_number
     draw_interface(score)
     pygame.display.update()
